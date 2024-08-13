@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1 id="head">COUNTDOWN</h1>
+        <div class="main1">
+            <input type="date" name="" id="dte">
+            <input type="time" name="" id="tm">
+            <button type="submit" onclick=getDate() id="btn">CLICK</button>
+        </div>
+        <div class="main2" id="data">
+            <div class="child">
+                <input type="text" readonly value="0">
+                <label for="Days">DAYS</label>
+            </div>
+            <div class="child1">
+<h1>:</h1>
+            </div>
+            <div class="child">
+                <input type="text" readonly value="0">
+                <label for="Hours">HOURS</label>
+            </div>
+            <div class="child1"><h1>:</h1>
+            <h2></h2>
+            </div>
+            <div class="child">
+                <input type="text" readonly value="0">
+                <label for="Minutes">MINUTES</label>
+            </div>
+            <div class="child1"><h1>:</h1></div>
+            <div class="child">
+                <input type="text" readonly value="0">
+                <label for="Seconds">SECONDS</label>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
